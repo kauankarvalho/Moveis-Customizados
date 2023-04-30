@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="text-[62.5%]">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,31 +18,48 @@
     <title>Móveis customizados</title>
   </head>
 
-  <body>
-    <main>
+  <body class="h-screen">
+    <main class="flex flex-col items-center">
       <img
+        class="w-[34.8rem] mb-[7.2rem]"
         src="./src/assets/image.png"
         alt="Desenho de uma pessoa vestindo uma camisa amarela em uma sala com Móveis"
       />
-      <h1>Ambientes únicos para você!</h1>
-      <p>
-        Nós criamos ambientes exclusívos e únicos, com muito bom gosto e profissionalismo, investimos tempo e dedicação
-        no seu projeto.
-        <br />
-        <br />
-        Tenha ambientes limpos e bem decorados, transmitindo elegância e finesse para todo aquele que estiver ali.
-      </p>
+
+      <section class="text-center w-[59.2rem]">
+        <h1 class="font-inter text-[4.9rem]/[5.6rem] font-normal mb-[3.2rem]">
+          Ambientes <strong class="font-bold text-[#FF9900]">únicos</strong> para você!
+        </h1>
+
+        <p class="font-open_sans font-normal text-[1.4rem]/[2.8rem] text-[#7D7987]">
+          Nós criamos ambientes <strong>exclusívos</strong> e <strong>únicos</strong>, com muito bom gosto e
+          profissionalismo, investimos tempo e <span class="text-[#FF9900]">dedicação no seu projeto</span>.
+
+          <br />
+          <br />
+
+          Tenha <span class="text-[#FF9900]">ambientes limpos</span> e bem decorados, transmitindo
+          <strong>elegância</strong> e <strong>finesse</strong> para todo aquele que estiver ali.
+        </p>
+      </section>
     </main>
 
-    <footer>
-      <div id="line"></div>
-      <a href="#" target="_blank">Instagram</a>
-      <a href="#">Fale conosco</a>
+    <footer class="flex flex-col items-center gap-[.8rem] mt-[7.2rem]">
+      <div id="line" class="border-[1px] border-solid border-[#ECEFF2] w-[58.8rem]"></div>
+
+      <div id="links" class="flex gap-[3rem] font-open_sans text-[1.4rem]/[2.8rem] text-[#FF9900]">
+        <a href="#" target="_blank" class="hover:underline hover:opacity-60 transition-opacity duration-300">
+          Instagram
+        </a>
+        <a href="#" target="_blank" class="hover:underline hover:opacity-60 transition-opacity duration-300">
+          Fale conosco
+        </a>
+      </div>
     </footer>
 
     <aside>
       <img
-        id="balls"
+        class="absolute bottom-0 right-0"
         src="./src/assets/balls-decoration.svg"
         alt="Bolinhas alaranjadas no canto inferior direito da tela"
       />
