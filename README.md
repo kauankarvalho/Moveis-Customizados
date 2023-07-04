@@ -21,7 +21,7 @@
 <br />
 
 <div align="center">
-  <img alt="Desafio Móveis Customizados" src="./.github/preview.png" width="100%" />
+  <img alt="Desafio Móveis Customizados" src="./.github/thumbnail.png" width="100%" />
 </div>
 
 ## 🎨 Layout
